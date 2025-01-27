@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
 return (
@@ -6,15 +6,15 @@ return (
         <div className="flex justify-between p-6 px-40 w-full bg-zinc-900 text-white font-bold text-2xl">
             <ul >
                 <li>
-                    <Link to="/">Bishesh</Link>
+                    <NavLink to="/">Bishesh</NavLink>
                 </li>
             </ul>
             <ul className="flex gap-10">
                 <li>
-                    <Link to="/about">About</Link>
+                    <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <Link to="/blog">Blog</Link>
+                    <NavLink to="/blog">Blog</NavLink>
                 </li>
             </ul>
         </div>
