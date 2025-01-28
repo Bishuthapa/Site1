@@ -40,6 +40,12 @@ function PrivacyPolicy() {
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Privacy Policy, please contact us.
+            <br />
+            Email: <a href="mailto:bishuthapa570@gmail.com" className="text-blue-500 hover:underline">Bishuthapa570@gmail.com</a>
+            <br />
+            <a href="https://github.com/bishuthapa" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"> GitHub</a>
+            <br />
+            <a href="https://www.linkedin.com/in/bishu-t-53b239277/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"> LinkedIn</a>
           </p>
         </section>
       </div>
