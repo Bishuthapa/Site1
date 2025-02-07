@@ -6,22 +6,22 @@ import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
 import PrivacyPolicy from './components/Privacy policy/PrivacyPolicy';
 import Contacts from './components/Contacts/Contacts';
+import.meta.env.VITE_API_URL;
 
 function App() {
   return (
-     <>
-        
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/contacts" element={<Contacts />} />
-        </Routes>
-        <Footer />
-      </>
-   
+    <>
+      {console.log(import.meta.env.VITE_API_URL)}
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
