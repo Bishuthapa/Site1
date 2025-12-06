@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Bishuthapa/Site1",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
